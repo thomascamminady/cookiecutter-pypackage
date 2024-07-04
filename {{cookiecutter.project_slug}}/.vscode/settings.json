@@ -1,17 +1,10 @@
 {
-    "cSpell.words": [
-        "venv"
-    ],
-    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
     "editor.formatOnPaste": false,
     "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.fontLigatures": true,
     "editor.fontSize": 17,
     "editor.inlineSuggest.enabled": true,
     "editor.largeFileOptimizations": false,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.parameterHints.enabled": false,
-    "editor.codeActionsOnSave": {},
     "editor.stickyScroll.enabled": true,
     "editor.stickyScroll.defaultModel": "foldingProviderModel",
     "editor.minimap.enabled": false,
@@ -20,9 +13,6 @@
     "editor.unicodeHighlight.invisibleCharacters": false,
     "editor.renderWhitespace": "all",
     "editor.formatOnSave": true,
-    "editor.rulers": [
-        100
-    ],
     "editor.semanticTokenColorCustomizations": {
         "rules": {
             "*.typeHint": {
@@ -72,6 +62,7 @@
     "debug.console.lineHeight": 25,
     "debug.console.closeOnEnd": true,
     "debug.console.acceptSuggestionOnEnter": "on",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
     "python.analysis.autoImportCompletions": true,
     "python.analysis.inlayHints.callArgumentNames": "partial",
     "python.analysis.inlayHints.functionReturnTypes": true,
@@ -109,7 +100,7 @@
         "jupyter-notebook": "right"
     },
     "notebook.codeActionsOnSave": {
-        "source.organizeImports": false
+        "source.organizeImports": true
     },
     "notebook.cellFocusIndicator": "border",
     "jupyter.askForKernelRestart": false,
@@ -117,17 +108,6 @@
         "jsdelivr.com",
         "unpkg.com"
     ],
-    "git.openRepositoryInParentFolders": "always",
-    "github-actions.workflows.pinned.refresh.enabled": true,
-    "git.autofetch": true,
-    "workbench.startupEditor": "none",
-    "workbench.iconTheme": "vscode-great-icons",
-    "workbench.tree.enableStickyScroll": true,
-    "workbench.colorTheme": "Default Light Modern",
-    "workbench.editorAssociations": {
-        "*.csv": "default",
-        "*.fit": "default"
-    },
     "ruff.lint.run": "onSave",
     "ruff.exclude": [
         ".mypy_cache",
@@ -138,6 +118,19 @@
         "*/__pycache__"
     ],
     "ruff.nativeServer": true,
+    "git.openRepositoryInParentFolders": "always",
+    "github-actions.workflows.pinned.refresh.enabled": false,
+    "git.autofetch": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "vscode-great-icons",
+    "workbench.tree.enableStickyScroll": true,
+    "workbench.colorTheme": "Default Light Modern",
+    "workbench.editorAssociations": {
+        "*.csv": "default",
+        "*.fit": "default"
+    },
     "files.watcherExclude": {
         "**/.git/objects/**": true,
         "**/node_modules/**": true,
@@ -151,23 +144,15 @@
     },
     "prettier.tabWidth": 4,
     "window.density.editorTabHeight": "compact",
-    "cSpell.userWords": [
-        "duckdb",
-        "venv"
-    ],
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "autoDocstring.docstringFormat": "numpy",
-    "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.hideUnchangedRegions.enabled": true,
     "errorLens.enabledDiagnosticLevels": [
         "error",
         "warning",
     ],
-    "dataWrangler.experiments.fastCsvParsing": true,
     "excalidraw.theme": "light",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true,
+    "interactiveWindow.executeWithShiftEnter": true,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features",
         "editor.quickSuggestions": {
@@ -182,20 +167,7 @@
         },
         "editor.suggest.insertMode": "replace"
     },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "[markdown]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "interactiveWindow.executeWithShiftEnter": true,
 }
